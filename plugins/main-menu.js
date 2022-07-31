@@ -148,7 +148,7 @@ let handler = async (m, { conn, usedPrefix: _p, command: _c, args, __dirname }) 
     let totalreg = Object.values(db.data.users).length
     let rtotalreg = Object.values(db.data.users).filter(user => user.registered == true).length
     let d = new Date(new Date + 3600000)
-    let locale = 'en-IN'
+    let locale = 'en_IN'
     let weton = [
       'Pahing', 
       'Pon', 
